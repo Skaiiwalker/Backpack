@@ -24,7 +24,7 @@ public class TwoDController
 	{
 		for(int row = 0; row < myBackpacks.length; row++)
 		{
-			for(int col = 0col < myBackpacks[0].length; col++)
+			for(int col = 0; col < myBackpacks[0].length; col++)
 			{
 				myBackpacks[row][col].setNumberOfPockets(col + 5);
 			}
