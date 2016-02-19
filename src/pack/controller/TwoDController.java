@@ -11,12 +11,13 @@ public class TwoDController
 	public TwoDController()
 	{
 		myBackpacks = new Backpack[3][3];
+		setupArray();
 		baseFrame = new TwoDFrame(this);
 	}
 	
 	public void start()
 	{
-		setupArray();
+		
 	}
 	
 	private void setupArray()
